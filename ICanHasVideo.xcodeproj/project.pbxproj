@@ -1,0 +1,302 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E73B1801C1B06F800BD2A34 /* youtube-dl in Resources */ = {isa = PBXBuildFile; fileRef = 4E73B17F1C1B06F800BD2A34 /* youtube-dl */; };
+		4E7ED36C1BF7F4C50093FB61 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E7ED36B1BF7F4C50093FB61 /* AppDelegate.m */; };
+		4E7ED3711BF7F4D40093FB61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E7ED36D1BF7F4D40093FB61 /* Assets.xcassets */; };
+		4E7ED3721BF7F4D40093FB61 /* Downloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E7ED36F1BF7F4D40093FB61 /* Downloader.m */; };
+		4E7ED3731BF7F4D40093FB61 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4E7ED3701BF7F4D40093FB61 /* Info.plist */; };
+		4E7ED3751BF7F4E80093FB61 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E7ED3741BF7F4E80093FB61 /* main.m */; };
+		4E7ED3781BF7F5070093FB61 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E7ED3761BF7F5070093FB61 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4E04A48E1BEFA6E0008A6730 /* ICanHasVideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ICanHasVideo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E73B17F1C1B06F800BD2A34 /* youtube-dl */ = {isa = PBXFileReference; lastKnownFileType = file; name = "youtube-dl"; path = "ICanHasVideo/youtube-dl"; sourceTree = SOURCE_ROOT; };
+		4E7ED36A1BF7F4C50093FB61 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ICanHasVideo/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		4E7ED36B1BF7F4C50093FB61 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ICanHasVideo/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		4E7ED36D1BF7F4D40093FB61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ICanHasVideo/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		4E7ED36E1BF7F4D40093FB61 /* Downloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Downloader.h; path = ICanHasVideo/Downloader.h; sourceTree = SOURCE_ROOT; };
+		4E7ED36F1BF7F4D40093FB61 /* Downloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Downloader.m; path = ICanHasVideo/Downloader.m; sourceTree = SOURCE_ROOT; };
+		4E7ED3701BF7F4D40093FB61 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ICanHasVideo/Info.plist; sourceTree = SOURCE_ROOT; };
+		4E7ED3741BF7F4E80093FB61 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ICanHasVideo/main.m; sourceTree = SOURCE_ROOT; };
+		4E7ED3771BF7F5070093FB61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = ICanHasVideo/Base.lproj/MainMenu.xib; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E04A48B1BEFA6E0008A6730 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E04A4851BEFA6E0008A6730 = {
+			isa = PBXGroup;
+			children = (
+				4E04A4901BEFA6E0008A6730 /* ICanHasVideo */,
+				4E04A48F1BEFA6E0008A6730 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4E04A48F1BEFA6E0008A6730 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E04A48E1BEFA6E0008A6730 /* ICanHasVideo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E04A4901BEFA6E0008A6730 /* ICanHasVideo */ = {
+			isa = PBXGroup;
+			children = (
+				4E7ED36D1BF7F4D40093FB61 /* Assets.xcassets */,
+				4E7ED36E1BF7F4D40093FB61 /* Downloader.h */,
+				4E7ED36F1BF7F4D40093FB61 /* Downloader.m */,
+				4E7ED3701BF7F4D40093FB61 /* Info.plist */,
+				4E7ED36A1BF7F4C50093FB61 /* AppDelegate.h */,
+				4E7ED36B1BF7F4C50093FB61 /* AppDelegate.m */,
+				4E7ED3761BF7F5070093FB61 /* MainMenu.xib */,
+				4E04A4941BEFA6E0008A6730 /* Supporting Files */,
+			);
+			name = ICanHasVideo;
+			path = YoutubeDL;
+			sourceTree = "<group>";
+		};
+		4E04A4941BEFA6E0008A6730 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E73B17F1C1B06F800BD2A34 /* youtube-dl */,
+				4E7ED3741BF7F4E80093FB61 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4E04A48D1BEFA6E0008A6730 /* ICanHasVideo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E04A49F1BEFA6E0008A6730 /* Build configuration list for PBXNativeTarget "ICanHasVideo" */;
+			buildPhases = (
+				4E04A48A1BEFA6E0008A6730 /* Sources */,
+				4E04A48B1BEFA6E0008A6730 /* Frameworks */,
+				4E04A48C1BEFA6E0008A6730 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ICanHasVideo;
+			productName = YoutubeDL;
+			productReference = 4E04A48E1BEFA6E0008A6730 /* ICanHasVideo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E04A4861BEFA6E0008A6730 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Stronzo;
+				TargetAttributes = {
+					4E04A48D1BEFA6E0008A6730 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 4E04A4891BEFA6E0008A6730 /* Build configuration list for PBXProject "ICanHasVideo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4E04A4851BEFA6E0008A6730;
+			productRefGroup = 4E04A48F1BEFA6E0008A6730 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E04A48D1BEFA6E0008A6730 /* ICanHasVideo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E04A48C1BEFA6E0008A6730 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E73B1801C1B06F800BD2A34 /* youtube-dl in Resources */,
+				4E7ED3731BF7F4D40093FB61 /* Info.plist in Resources */,
+				4E7ED3711BF7F4D40093FB61 /* Assets.xcassets in Resources */,
+				4E7ED3781BF7F5070093FB61 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E04A48A1BEFA6E0008A6730 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E7ED36C1BF7F4C50093FB61 /* AppDelegate.m in Sources */,
+				4E7ED3751BF7F4E80093FB61 /* main.m in Sources */,
+				4E7ED3721BF7F4D40093FB61 /* Downloader.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4E7ED3761BF7F5070093FB61 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E7ED3771BF7F5070093FB61 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4E04A49D1BEFA6E0008A6730 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4E04A49E1BEFA6E0008A6730 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4E04A4A01BEFA6E0008A6730 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ICanHasVideo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GG.StreamDL;
+				PRODUCT_NAME = ICanHasVideo;
+			};
+			name = Debug;
+		};
+		4E04A4A11BEFA6E0008A6730 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ICanHasVideo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GG.StreamDL;
+				PRODUCT_NAME = ICanHasVideo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E04A4891BEFA6E0008A6730 /* Build configuration list for PBXProject "ICanHasVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E04A49D1BEFA6E0008A6730 /* Debug */,
+				4E04A49E1BEFA6E0008A6730 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E04A49F1BEFA6E0008A6730 /* Build configuration list for PBXNativeTarget "ICanHasVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E04A4A01BEFA6E0008A6730 /* Debug */,
+				4E04A4A11BEFA6E0008A6730 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4E04A4861BEFA6E0008A6730 /* Project object */;
+}
