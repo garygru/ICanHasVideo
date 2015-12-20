@@ -26,6 +26,11 @@
 	[dl abort];
 }
 
+- (BOOL)applicationShouldTerminateAfterLastWindowClosed:(NSApplication *)theApplication
+{
+	return YES;
+}
+
 - (IBAction)download:(id)sender
 {
 	NSURL *url = [NSURL URLWithString:[urlField stringValue]];
@@ -34,18 +39,15 @@
 	}
 }
 
-
 - (IBAction)abort:(id)sender
 {
 	[dl abort];
 }
 
-
 - (void) updateConsole:(NSString*)text
 {
 	[console setString:text];
 }
-
 
 - (void)updateLabel:(NSString*)text
 {

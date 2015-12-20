@@ -696,10 +696,10 @@
                                     <color key="textColor" red="0.91313958169999998" green="0.5633077621" blue="0.01130285673" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <color key="backgroundColor" red="0.15432755235602091" green="0.15432755235602091" blue="0.15432755235602091" alpha="1" colorSpace="calibratedRGB"/>
                                     <size key="minSize" width="480" height="182"/>
-                                    <size key="maxSize" width="480" height="10000000"/>
+                                    <size key="maxSize" width="482" height="10000000"/>
                                     <color key="insertionPointColor" name="controlLightHighlightColor" catalog="System" colorSpace="catalog"/>
                                     <size key="minSize" width="480" height="182"/>
-                                    <size key="maxSize" width="480" height="10000000"/>
+                                    <size key="maxSize" width="482" height="10000000"/>
                                 </textView>
                             </subviews>
                             <color key="backgroundColor" red="0.16068799083769636" green="0.15675303858133596" blue="0.14962449439901634" alpha="1" colorSpace="calibratedRGB"/>

@@ -19,9 +19,6 @@
 - (void)download:(NSURL*)url;
 - (void)abort;
 
-
-//@property NSFileHandle *outFile;
-//@property NSFileHandle *errFile;
 @property NSTask *task;
 
 @end
