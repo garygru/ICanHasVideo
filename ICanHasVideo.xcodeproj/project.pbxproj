@@ -11,7 +11,6 @@
 		4E7ED36C1BF7F4C50093FB61 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E7ED36B1BF7F4C50093FB61 /* AppDelegate.m */; };
 		4E7ED3711BF7F4D40093FB61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E7ED36D1BF7F4D40093FB61 /* Assets.xcassets */; };
 		4E7ED3721BF7F4D40093FB61 /* Downloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E7ED36F1BF7F4D40093FB61 /* Downloader.m */; };
-		4E7ED3731BF7F4D40093FB61 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4E7ED3701BF7F4D40093FB61 /* Info.plist */; };
 		4E7ED3751BF7F4E80093FB61 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E7ED3741BF7F4E80093FB61 /* main.m */; };
 		4E7ED3781BF7F5070093FB61 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E7ED3761BF7F5070093FB61 /* MainMenu.xib */; };
 /* End PBXBuildFile section */
@@ -139,7 +138,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E73B1801C1B06F800BD2A34 /* youtube-dl in Resources */,
-				4E7ED3731BF7F4D40093FB61 /* Info.plist in Resources */,
 				4E7ED3711BF7F4D40093FB61 /* Assets.xcassets in Resources */,
 				4E7ED3781BF7F5070093FB61 /* MainMenu.xib in Resources */,
 			);
@@ -208,7 +206,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
@@ -245,7 +243,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
 			};

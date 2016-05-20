@@ -30,7 +30,7 @@
 		task = [[NSTask alloc] init];
 		NSBundle *mainBundle = [NSBundle mainBundle];
 		[task setLaunchPath:[mainBundle pathForResource:@"youtube-dl" ofType:nil]];
-		[task setCurrentDirectoryPath:@"~/Desktop"];
+		[task setCurrentDirectoryPath:@"~/Downloads"];
 
 		NSString* urlString = [url absoluteString];
 		task.arguments = @[@"-f", @"best", @"-v", urlString];
